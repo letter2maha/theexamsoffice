@@ -1,0 +1,16 @@
+.testsContainer {
+  display: flex;
+  height: 10vh;
+  width: 80vw;
+  margin: 5%;
+  border: 1px solid black;
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+}
+
+.testName {
+  flex: 3;
+}
+
+.testButton {
+  flex: 1;
+}
