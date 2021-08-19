@@ -1,5 +1,5 @@
 .app {
-  background-color: #603bbb;
+  /* background-color: #efebfc; */
   width: 80vw;
   min-height: 400px;
   margin: 5%;
@@ -9,14 +9,16 @@
   box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
   display: flex;
   justify-content: space-evenly;
-  color: white;
-  background-image: linear-gradient(to bottom right, #603bbb, rgb(26, 8, 8));
+  color: black;
+  background: white;
 }
 
 .score-section {
   display: flex;
+  flex-direction: column;
   font-size: 24px;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 /* QUESTION/TIMER/LEFT SECTION */
@@ -34,6 +36,9 @@
 }
 
 .question-text {
+  font-size: 30px;
+  margin-left: 50px;
+  margin-top: 50px;
   margin-bottom: 12px;
 }
 
@@ -53,6 +58,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-top: 42px;
 }
 .answer-section button {
   width: 20%;
@@ -67,6 +73,7 @@
   align-items: center;
   border: 5px solid #234668;
   cursor: pointer;
+  margin-left: -30px;
 }
 .answer-section input[type="text"] {
   width: 100%;

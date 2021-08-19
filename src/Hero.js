@@ -1,11 +1,12 @@
 import React from 'react'
 
-function Hero({handleLogout}) {
+function Hero(props) {
     return (
         <section className="hero">
             <nav>
-                <h2>Welcome</h2>
-                <button onClick={handleLogout}>Logout</button>
+                <img src="examoffice.png"></img>
+                <h2>Welcome {props.email}</h2>
+                <button onClick={props.handleLogout}>Logout</button>
             </nav>
         </section>
     )

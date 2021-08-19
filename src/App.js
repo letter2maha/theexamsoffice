@@ -85,7 +85,7 @@ function App() {
 
   return (
     <div className="App">
-      {user ? <><Hero handleLogout={handleLogout} />
+      {user ? <><Hero email={email} handleLogout={handleLogout} />
         <Tests/></>:
       <Login email={email} setEmail={setEmail} password={password} setPassword={setPassword}
         handleLogin={handleLogin} handleSignUp={handleSignUp} hasAccount={hasAccount} setHasAccount={setHasAccount}

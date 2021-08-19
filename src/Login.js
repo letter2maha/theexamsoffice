@@ -8,6 +8,7 @@ const login = (props) => {
     return (
         <section className="login">
             <div className="loginContainer">
+                 <img src="examoffice.png"></img>
                 <label>Username</label>
                 <input type="text" autoFocus required value={email}
                     onChange={(e) => setEmail(e.target.value)} />
