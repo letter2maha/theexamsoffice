@@ -15,6 +15,7 @@ function App() {
   const clearInputs = () => {
     setUser("");
     setPassword("");
+    console.log("Test log ");
   };
 
   const clearErrors = () => {
